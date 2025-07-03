@@ -49,8 +49,8 @@ public class Changepasswordpage {
 
             wait.until(ExpectedConditions.elementToBeClickable(loginBtn)).click();
 
-            log.info("Login successful");
-            test.pass("Login successful");
+            log.info("Login successful Done");
+            test.pass("Login successfully");
 
         } catch (Exception e) {
             log.error("Login failed", e);
